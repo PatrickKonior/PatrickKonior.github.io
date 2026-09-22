@@ -46,7 +46,7 @@
         /* Hero / Profile Section */
         .hero {
             max-width: 1100px;
-            margin: 40px auto 80px auto;
+            margin: 40px auto 60px auto;
             padding: 0 20px;
             display: grid;
             grid-template-columns: 280px 1fr;
@@ -125,39 +125,13 @@
             color: #52525B;
             font-size: 1.05rem;
             max-width: 650px;
-            margin-bottom: 28px;
             line-height: 1.6;
-        }
-
-        .hero-buttons {
-            display: flex;
-            gap: 16px;
-            align-items: center;
-        }
-
-        .btn-outline {
-            border: 1px solid #E4E4E7;
-            background: #FFF;
-            color: #18181B;
-            padding: 10px 20px;
-            border-radius: 8px;
-            font-weight: 600;
-            font-size: 0.9rem;
-            text-decoration: none;
-            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
-        }
-
-        .btn-link {
-            color: #52525B;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 0.9rem;
         }
 
         /* Section Formatting */
         .content-section {
             max-width: 1100px;
-            margin: 0 auto 60px auto;
+            margin: 0 auto 50px auto;
             padding: 0 20px;
         }
 
@@ -166,13 +140,7 @@
             font-weight: 800;
             color: #0F172A;
             letter-spacing: -0.5px;
-        }
-
-        .section-header p {
-            color: #71717A;
-            font-size: 0.95rem;
-            margin-top: 4px;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
 
         /* Grid Cards */
@@ -207,7 +175,7 @@
         .deliverables {
             font-size: 0.85rem;
             color: #18181B;
-            margin-bottom: 0;
+            margin-bottom: 0 !important;
         }
 
         .deliverables strong {
@@ -265,7 +233,7 @@
     <section class="hero" id="about">
         <div class="profile-card">
             <div class="profile-img-container">
-                <img src="https://via.placeholder.com/170" alt="Patrick">
+                <img src="Patrick.Konior.jpeg" alt="Patrick Konior">
             </div>
             <h3>Patrick</h3>
             <p class="school">Rutgers Business School</p>
@@ -278,10 +246,6 @@
             <p class="bio">
                 Welcome! Ambitious Finance major with hands-on experience in financial modeling, corporate budgeting, and entrepreneurship, driven to analyze business growth and optimize decision-making for future organizations.
             </p>
-            <div class="hero-buttons">
-                <a href="mailto:your-email@rutgers.edu" class="btn-outline">Email Me</a>
-                <a href="#" class="btn-link">LinkedIn Profile →</a>
-            </div>
         </div>
     </section>
 
@@ -289,7 +253,6 @@
     <section class="content-section" id="skills">
         <div class="section-header">
             <h2>Core Business Pillars: Professional Skills</h2>
-            <p>Key technical, analytical, and operational strengths tailored for modern financial and business environments.</p>
         </div>
         <div class="card">
             <ul class="skills-list">
@@ -305,7 +268,6 @@
     <section class="content-section" id="projects">
         <div class="section-header">
             <h2>Core Business Pillars: My Work</h2>
-            <p>Demonstrating my analytical approach, teamwork, and strategic thinking across different business functions.</p>
         </div>
 
         <div class="card-grid">
